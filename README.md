@@ -4,7 +4,7 @@ Projeto desenvolvido durante a **Formação Fullstack da Rocketseat** (Módulo 0
 
 ---
 
-## 🔀 Mudanças 
+## 🔀 Melhorias Implementadas
   Me inspirei para ir além dos requisitos mínimos e aplicar conhecimentos extras para melhorar a aplicação, como por exemplo: a responsividade, botão reset e animações.
 
   ![Versão Modificada](https://i.imgur.com/ZDEY2XQ.png)
@@ -14,7 +14,7 @@ Projeto desenvolvido durante a **Formação Fullstack da Rocketseat** (Módulo 0
 ### 💻 Desktop 
 ![Versão Desktop](https://i.imgur.com/lFSzHdw.png)
 
-# Resultado na tela
+### Resultado na tela
 ![Versão Desktop](https://i.imgur.com/ETEt1I9.png)
 
 ### 📱 iPad
@@ -28,7 +28,7 @@ Projeto desenvolvido durante a **Formação Fullstack da Rocketseat** (Módulo 0
 ## 🚀 Funcionalidades
 
 - Conversão de moedas em tempo real
-- Responsividade completa (incluído manualmente)
+- Responsividade completa (Implementado manualmente sem frameworks)
 - Organização modular das pastas
 - Boas práticas de indentação
 - Layout adaptado para diferentes tamanhos de tela
