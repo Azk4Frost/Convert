@@ -51,3 +51,8 @@ Projeto desenvolvido durante a **Formação Fullstack da Rocketseat** (Módulo 0
 ## 📁 Estrutura de pastas
 
 ![estruturas de pastas](https://i.imgur.com/TuCNBuY.png)
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT.  
+Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
