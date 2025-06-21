@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--Todos os meta dados responsaveis pelas fontes e src para o css da página-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/components/footer.css"/>
+    <link rel="stylesheet" href="css/components/button.css"/>
+    <link rel="stylesheet" href="css/components/forms.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <title>Convert</title>
+  </head>
+  <body>
+    <!-- Imagem do logotipo da aplicação-->
+    <img src="./assets/logo.svg" alt="Convert logo" />
+
+    <main>
+      <!-- Este formulário é responsável por mostrar as opções de moedas e armazenar o valor-->
+      <form>
+        <button class="reset" id="resetButton" type="reset"><img src="./assets/refresh-outline.svg" alt="" id="resetIcon"></button>
+        <label for="amount">valor</label>
+        <!-- Input que armazena o valor-->
+        <input type="text" name="amount" id="amount" placeholder="0" required />
+
+        <label for="currency">moeda</label>
+        <select name="currency" id="currency" required>
+          <!-- Opções de moedas para conversão-->
+          <option value="" disabled selected hidden>Selecione a moeda</option>
+          <option value="USD">Dólar Americano</option>
+          <option value="EUR">Euro</option>
+          <option value="GBP">Libra Esterlina</option>
+          <option value="AOA">Kwanza Angolano</option>
+        </select>
+        <!-- Botão que faz o submit para o javascript com as informações armazenadas pelo formulario -->
+        <button type="submit" class="submitButton">Converter em reais</button>
+      </form>
+    </main>
+    <!-- Este footer é responsável por mostrar na tela o resultado da conversão de reais para a moeda escolhida e o valor dela no mercado-->
+    <footer>
+        <span id="description">US$ 1 = R$ 4,86</span>
+        <h1 id="result">486,00 Reais</h1>
+      </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
